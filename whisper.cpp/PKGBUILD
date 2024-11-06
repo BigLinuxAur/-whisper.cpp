@@ -14,7 +14,7 @@ arch=('armv7h' 'aarch64' 'x86_64')
 url="https://github.com/ggerganov/whisper.cpp"
 license=("MIT")
 depends=('glibc' 'gcc-libs')
-makedepends=(
+makedepends=('vulkan-headers' 'vulkan-tools' 'vulkan-validation-layers' 'shaderc'
   'blas-openblas'
   'cmake'
   'cuda'
